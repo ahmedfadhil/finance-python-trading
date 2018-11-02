@@ -81,8 +81,6 @@ print(daily_pct_change)
 daily_log_returns = np.log(daily_close.pct_change() + 1)
 print(daily_log_returns)
 
-
-
 # Resample `aapl` to business months, take last observation as value
 monthly = aapl.resample('BM').apply(lambda x: x[-1])
 
@@ -95,9 +93,34 @@ quarter = aapl.resample("4M").mean()
 # Calculate the quarterly percentage change
 quarter.pct_change()
 
-
 # Daily returns
 daily_pct_change = daily_close / daily_close.shift(1) - 1
 
 # Print `daily_pct_change`
 print(daily_pct_change)
+
+# Plot the distribution of `daily_pct_c`
+daily_pct_change.hist(bins=50)
+
+# Show the plot
+plt.show()
+
+# Pull up summary statistics
+print(daily_pct_change.describe())
+
+# Calculate the cumulative daily returns
+cum_daily_return = (1 + daily_pct_change).cumprod()
+
+# Print `cum_daily_return`
+print(cum_daily_return)
+
+
+# Plot the cumulative daily returns
+cum_daily_return.plot(figsize=(12,8))
+
+
+# Resample the cumulative daily return to cumulative monthly return
+cum_monthly_return = cum_daily_return.resample("M").mean()
+
+# Print the `cum_monthly_return`
+print(cum_monthly_return)
