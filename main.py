@@ -94,3 +94,10 @@ quarter = aapl.resample("4M").mean()
 
 # Calculate the quarterly percentage change
 quarter.pct_change()
+
+
+# Daily returns
+daily_pct_change = daily_close / daily_close.shift(1) - 1
+
+# Print `daily_pct_change`
+print(daily_pct_change)
