@@ -1,5 +1,5 @@
 from main import *
-import statsmodels.api as sm
+
 
 
 def get(tickers, startdate, enddate):
@@ -53,3 +53,6 @@ vol = daily_pct_change.rolling(min_periods).std() * np.sqrt(min_periods)
 vol.plot(figsize=(10, 8))
 
 # Show the plot
+plt.show()
+
+
