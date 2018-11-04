@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7322a03-9e0e-4d36-9fa6-8ca591a88c18" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ZiplineQuantopian.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvngavgcrsovr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CAGR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvngavgcrsovr.py" beforeDir="false" afterPath="$PROJECT_DIR$/mvngavgcrsovr.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,11 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvngavgcrsovr.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mvngavgcrsovr.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvngavgcrsovr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            <state relative-caret-position="352">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CAGR.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CAGR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -103,6 +111,7 @@
         <option value="$PROJECT_DIR$/SimpleBacktester.py" />
         <option value="$PROJECT_DIR$/ZiplineQuantopian.py" />
         <option value="$PROJECT_DIR$/mvngavgcrsovr.py" />
+        <option value="$PROJECT_DIR$/CAGR.py" />
       </list>
     </option>
   </component>
@@ -294,16 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trading_strategy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-          <folding>
-            <element signature="e#34#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SimpleBacktester.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -324,10 +323,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/trading_strategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding>
+            <element signature="e#34#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mvngavgcrsovr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="352">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CAGR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
